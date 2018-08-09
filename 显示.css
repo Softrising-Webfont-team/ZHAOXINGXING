@@ -1,0 +1,46 @@
+* {
+	padding:0;
+	margin:0 auto;
+}
+.show {
+	border: 2px solid black;
+	text-align: center;
+	position: relative;
+	width: 80%;
+	height: 100%;
+}
+.show .chaxun {
+	letter-spacing: 2px;
+	margin-top: 50px;
+	font-size: 30px;
+	color: #625D5D;
+	margin-bottom: 50px;
+}
+.show .left {
+	float: left;
+	margin-right: 40px;
+	text-align: right;
+	position: relative;
+	font-family: STSong;
+	font-size: 20px;
+	font-size: 30px;
+	color: #21A498;
+	font-weight: bold;
+	width: 220px;
+}
+.show tr {
+	margin-top: 60px;
+	display: block;
+}
+.show table .right {
+	font-family: STSong;
+	border-bottom: 2px dashed black;
+	height: auto;
+	position: relative;
+	font-size: 20px;
+	padding-bottom: 5px;
+	color: #646060;
+}
+.show table {
+	margin-bottom: 200px;
+}
