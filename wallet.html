@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>钱包</title>
-	<link rel="stylesheet" type="text/css" href="钱包.css">
+	<link rel="stylesheet" type="text/css" href="wallet.css">
 </head>
 <body>
 	<div id="all">
@@ -14,9 +14,9 @@
 		</div>
 		<div class="row">
 			<ul>
-				<li><a href="#" class="login">注册钱包</a></li>
-				<li><a href="#" class="changemonney">转账/收钱</a></li>
-				<li><a href="#" class="consult">查询交易记录</a></li>
+				<li><a href="#" class="login lead">注册钱包</a></li>
+				<li><a href="#" class="changemonney lead">转账/收钱</a></li>
+				<li><a href="#" class="consult lead">查询交易记录</a></li>
 			</ul>
 		</div>		
 		<div class="signIn" id="signIn">
@@ -40,7 +40,7 @@
 		</div>
 		<div class="success" id="success">
 			<h1>注册成功后请点击下载</h1>
-			<h2><button><a  id="download" href="#">下载</a></button></h2>
+			<h2><button><a id="download" href="#">下载</a></button></h2>
 		</div>
 		<div class="aqmsg">
 			<p>请输入你要查询的地址</p>
@@ -53,7 +53,7 @@
 						</tr>
 					</tbody>
 				</table>
-				<div class="appear"><a href="显示.html" id="aquiremsgsure">确认提交</a></div>
+				<div class="appear"><a href="#" id="aquiremsgsure">确认提交</a></div>
 			</form>
 		</div>
 		<div class="exchange">
@@ -132,64 +132,7 @@
 			<div><a href="#" class="return">返回上一级</a></div>
 		</div>
 	</div>
-	<div class="show" id="show">
-		<p class="chaxun">您所查询账户信息: </p>
-		<table>
-			<tr>
-				<th class="left">blockNumber</th>
-				<th class="right"><p id="blockNumber"></p></th>
-			</tr>
-			<tr>
-				<th class="left">from</th>
-				<th class="right"><p id="from"></p></th>
-			</tr>
-			<tr>
-				<th class="left">gas</th>
-				<th class="right"><p id="gas"></p></th>
-			</tr>
-			<tr>
-				<th class="left">gasPrice</th>
-				<th class="right"><p id="gasPrice"></p></th>
-			</tr>
-			<tr>
-				<th class="left">hash</th>
-				<th class="right"><p id="hash"></p></th>
-			</tr>
-			<tr>
-				<th class="left">input</th>
-				<th class="right"><p id="input"></p></th>
-			</tr>
-			<tr>
-				<th class="left">nonce</th>
-				<th class="right"><p class="nonce"></p></th>
-			</tr>
-			<tr>
-				<th class="left">r</th>
-				<th class="right"><p id="r"></p></th>
-			</tr>
-			<tr>
-				<th class="left">s</th>
-				<th class="right"><p id="s"></p></th>
-			</tr>
-			<tr>
-				<th class="left">to</th>
-				<th class="right"><p id="to"></p></th>
-			</tr>
-			<tr>
-				<th class="left">transactionIndex</th>
-				<th class="right"><p id="transactionIndex"></p></th>
-			</tr>
-			<tr>
-				<th class="left">v</th>
-				<th class="right"><p id="v"></p></th>
-			</tr>
-			<tr>
-				<th class="left">value</th>
-				<th class="right"><p id="value"></p></th>
-			</tr>
-		</table>
-	</div>
 	<script type="text/javascript" src="jquery-3.3.1.js"></script>
-	<script type="text/javascript" src="钱包.js"></script>
+	<script type="text/javascript" src="wallet.js"></script>
 </body>
 </html>

@@ -1,0 +1,53 @@
+* {
+	padding:0;
+	margin:0 auto;
+}
+.aqmsg {
+	border: 2px solid black;
+	text-align: center;
+	position: relative;
+}
+.aqmsg form {
+	margin-top: 55px;
+	margin-bottom: 55px;
+}
+.aqmsg p {
+	margin-top: 50px;
+	font-size: 30px;
+}
+.aqmsg span {
+	font-size: 30px;
+	font-family: SimSun ;
+	font-weight: lighter;
+}
+.aqmsg th {
+	height: 40px;
+	width: auto;
+	margin-left: 20px;
+}
+
+.aqmsg tr {
+	padding-bottom: 50px;
+	display: block;
+}
+.aqmsg .input {
+	border: 1px solid black;
+	border-radius: 5px;
+}
+.aqmsg input {
+	border: none;
+	height: 100%;
+	width: 500px;
+	position: relative;
+	padding-left: 10px;
+	font-size: 20px;
+}
+.aqmsg button {
+	font-size: 20px;
+	padding: 10px 20px;
+	background: white;
+	border-bottom: 3px solid #2F89A6;
+}
+.aqmsg button:hover {
+	background: lightblue;
+}
